@@ -1,6 +1,13 @@
+html{
+    height: 100%;
+}
+
 body {
-    background-color: rgba(red, green, rgb(57, 57, 58), alpha);
-    background-image: url("img/bg_pic2.jpeg");
+   background-color: rgb(71, 74, 76);
+    background-image: url("img/bg_pic.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .container{
    margin-left: auto;
@@ -8,27 +15,33 @@ body {
    width: 1024px;
 }
 header{
+   
     height: 118px;
     text-align: center;
 
     
 }
 .logo{
-    width: 40px;
-    height: 20px;
+    width:100px;
+    height:80px;
 }
 nav{
-height: 40px;
+    background-color: rgba(0, 0, 0, 0.171);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
 main{
 height: 400px;
 text-align: center;
-padding-top: 80px;
+padding-top: 60px;
 padding-left: 240px;
 padding-right: 240px;
 }
 footer{
-height: 100px;
+    background-color: rgba(5, 1, 1, 0.479);
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 h1{
     font-size: 84px;
@@ -40,4 +53,22 @@ p{
     font-size: 18px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-decoration: none; */
+}
+nav a{
+    text-decoration: none;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer p {
+    font-size: 10px;
+    text-align: center;
+}
+.maps{
+    padding-bottom: 100px;
 }
