@@ -337,7 +337,7 @@ margin-top: 20px;
         text-align: center;
     }
  .services .services-info .service:nth-child(2) .service-card .service-front{
-     background-image: url(/img/gold-2048295_960_720.jpg);
+     background-image: url(img/gold-2048295_960_720.jpg);
      background-size: cover;
      position: relative;
      color: white;
